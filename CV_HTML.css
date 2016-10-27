@@ -1,8 +1,8 @@
 html{
 	border: 8px solid transparent;
-    -webkit-border-image: url(images/B83HT.jpg) 5% round; /* Safari 3.1-5 */
-    -o-border-image: url(images/B83HT.jpg) 5% round; /* Opera 11-12.1 */
-    border-image: url(images/B83HT.jpg) 5% round;
+    -webkit-border-image: url(images/pattern1.jpg) 5% round; /* Safari 3.1-5 */
+    -o-border-image: url(images/pattern1.jpg) 5% round; /* Opera 11-12.1 */
+    border-image: url(images/pattern1.jpg) 5% round;
 padding-left: 50px;
 }
 
@@ -110,7 +110,7 @@ padding-left: 50px;
 /* Main tags */
 
 body {
-	background: url(images/bzh3.jpeg);
+	background: url(images/3.png);
 	background-attachment: fixed;
 	background-size: cover;
 	margin: 0;
@@ -152,7 +152,7 @@ blockquote, p , a, li {
 	font-weight: 800;
 	font-size: 15px;
 	color: black;
-background-image: url(images/B83HT.jpg);/*shards_pattern.jpg*/
+background-image: url(images/pattern1.jpg);/*shards_pattern.jpg*/
 background-size: cover;
 background-attachment: fixed;
 opacity: 0.8;
@@ -197,9 +197,9 @@ ul {
 	padding-bottom: 0px;
 	margin-left: -35px;
 	border: 10px solid transparent;
-    -webkit-border-image: url(images/B83HT.jpg) 5% round; /* Safari 3.1-5 */
-    -o-border-image: url(images/B83HT.jpg) 5% round; /* Opera 11-12.1 */
-    border-image: url(images/B83HT.jpg) 5% round;
+    -webkit-border-image: url(images/pattern1.jpg) 5% round; /* Safari 3.1-5 */
+    -o-border-image: url(images/pattern1.jpg) 5% round; /* Opera 11-12.1 */
+    border-image: url(images/pattern1.jpg) 5% round;
 	}
 
 	.header_logotype_container {
@@ -239,14 +239,15 @@ ul {
 	text-transform: uppercase;
 	font-size: 32px;
 	margin: 43px 0 0;
-	color: white;
+	color: black;
+	text-shadow: 3px 3px 1px white;
 }
 .logotype_occupation{ /*titre sous nom*/
 	width : 253px;
 	height: 240px;
 	text-transform: uppercase;
 	margin-top: 5px;
-	color: white;
+	color: black;
 	text-shadow: 10px 10px 1px grey;  
 	font-size: 17px;
 	letter-spacing: 2px;
@@ -366,7 +367,7 @@ border-left:5px solid white;
 .special_button {
 	margin-top: 25px;
 	display: block;
-	background: url(images/B83HT.jpg);/*#48DA9B*/
+	background: url(images/pattern1.jpg);/*#48DA9B*/
 	
 	opacity: 0.7;
 	background-size: cover;
@@ -428,7 +429,7 @@ border-left:5px solid white;
 }
   .get_social_content h2{
     margin-bottom: 8px;
-    background : url(images/B83HT.jpg);
+    background : url(images/pattern1.jpg);
     background-size: cover;
   }
 	.social_icons {
