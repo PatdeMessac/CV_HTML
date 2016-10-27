@@ -239,8 +239,10 @@ ul {
 	text-transform: uppercase;
 	font-size: 32px;
 	margin: 43px 0 0;
+	padding-left: 50px;
 	color: black;
-	text-shadow: 3px 3px 1px white;
+	text-shadow: 25em 0px 2px white;
+	text-align: center;
 }
 .logotype_occupation{ /*titre sous nom*/
 	width : 253px;
@@ -248,11 +250,11 @@ ul {
 	text-transform: uppercase;
 	margin-top: 5px;
 	color: black;
-	text-shadow: 10px 10px 1px grey;  
+	text-shadow: 58em 0px 1px grey;  
 	font-size: 17px;
 	letter-spacing: 2px;
 	padding-left: 7px;
-	padding-top : 2px;
+	padding-top : 40px;
 	border-right: 4px ridge red;
 	border-top: 4px ridge red;
 }
@@ -486,12 +488,14 @@ border-left:5px solid white;
 /* Profile Content */
 
 .profile_quote {
+
+	padding-top: 8px;
 	position: relative;
 	/* margin-left: 5px; */
 }
 	.profile_quote p {
 		font-size: 17px;
-		width: 455px;
+		width: 90%;
 	}
 	.profile_quote .entypo-quote {
 		color: #3d3a41;
