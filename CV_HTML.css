@@ -1,0 +1,537 @@
+html{
+	border: 8px solid transparent;
+    -webkit-border-image: url(images/B83HT.jpg) 5% round; /* Safari 3.1-5 */
+    -o-border-image: url(images/B83HT.jpg) 5% round; /* Opera 11-12.1 */
+    border-image: url(images/B83HT.jpg) 5% round;
+padding-left: 50px;
+}
+
+
+
+/*@import url(http://weloveiconfonts.com/api/?family=entypo|fontawesome);*/
+
+/* entypo */
+[class*="entypo-"]:before {
+  font-family: 'entypo', sans-serif;
+}
+/* fontawesome */
+[class*="fontawesome-"]:before {
+  font-family: 'FontAwesome', sans-serif;
+}
+
+
+*{
+	border-bottom-right-radius: 5px;
+}
+
+
+/* Utils */
+
+.clear {
+	clear: both;
+}
+.purple {
+	color: black;/*#837c9a*/
+}
+
+.block {
+	margin: 25px 30px;
+}
+	.block h1 {
+		margin-left: -5px;
+		font-weight: 900;
+	}
+
+.last.block {
+	margin-bottom: 110px;
+}
+
+.horizontal_list {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+	.horizontal_list li {
+		float: left;
+	}
+	.horizontal_list li:before {
+		content: none;
+	}
+	.horizontal_list li { 
+		padding-left: 0; 
+		text-indent: 0;
+	}
+
+.horizontal_line{
+	margin: 34px 0 0 30px;
+	height: 26px;
+	position: relative;	
+}
+	.line_left,
+	.line_right{
+		border-top: 5px ridge red;/*#434247*/
+		width: 305px;
+		margin-top: 13px;
+	}
+	.line_left{
+		float: left;
+	}
+	.line_right {
+		float: right;
+	}
+	.left_circle, 
+	.central_circle, 
+	.right_circle {
+		background: white;
+		background: rgba(255,0,0, 0.75);
+		position: absolute;
+		border-radius: 20px;
+
+	}
+	.left_circle, 
+	.right_circle {
+		width: 13px;
+		height: 13px;
+		top: 7px;
+	}
+	.left_circle{
+		left: 314px;
+	}
+	.central_circle{
+		width: 26px;
+		height: 26px;		
+		top: 0px;
+		left: 322px;
+	}
+	.right_circle{
+		left: 343px;
+	}
+	
+/* Main tags */
+
+body {
+	background: url(images/bzh3.jpeg);
+	background-attachment: fixed;
+	background-size: cover;
+	margin: 0;
+
+}
+
+h1,h2,h3, h4 {
+	font-family: 'Roboto', Helvetica, sans-serif;
+	font-weight: 900;
+	color: black;
+}
+	h1 {
+		font-size: 35px;
+		font-weight: 600;
+		margin: 20px 0;
+	}
+	h2 {
+		font-size: 25px;
+		margin: 32px 0 24px;
+	}
+	h3 {
+		font-size: 35px;
+	}
+	h4 {
+		font-size: 35px;
+		font-weight: 400;
+	}
+
+blockquote {
+	font-style: italic;
+	margin: 25px 0;
+	padding-left: 50px;
+	border-right: 5px ridge rgb(150, 0, 0);
+	border-bottom :5px ridge red ;
+}
+	
+blockquote, p , a, li {
+	font-family: 'Lato', Helvetica, sans-serif;
+	font-weight: 800;
+	font-size: 15px;
+	color: black;
+background-image: url(images/B83HT.jpg);/*shards_pattern.jpg*/
+background-size: cover;
+background-attachment: fixed;
+opacity: 0.8;
+}
+
+.header_menu a {
+border-top-right-radius: 40px;
+border-bottom-left-radius: 40px;
+}
+
+
+a:focus { 
+    outline: none;
+}
+
+ul {
+    list-style: none;
+    padding:0;
+    margin:0;
+}
+	li { 
+		padding-left: 1.5em; 
+		text-indent: -.7em;
+		border-radius: 15px 10%;
+	}
+	li:before {
+		content: "-•-";
+		color: yellow;/*#837c9a*/
+		font-size: 9px;
+		padding-right: 8px;
+	}
+
+/* Containers size */
+
+#main_container {
+	width: 95%;
+	margin: 0 auto;
+}
+#header {
+	width: 99.5%;
+	height: 250px;
+	padding-bottom: 0px;
+	margin-left: -35px;
+	border: 10px solid transparent;
+    -webkit-border-image: url(images/B83HT.jpg) 5% round; /* Safari 3.1-5 */
+    -o-border-image: url(images/B83HT.jpg) 5% round; /* Opera 11-12.1 */
+    border-image: url(images/B83HT.jpg) 5% round;
+	}
+
+	.header_logotype_container {
+		width: 256px;
+		height: 130px;
+		border-right: 4px ridge black;
+		float: left;
+	}
+	.header_menu_container {
+		
+		height: 130px;
+		width: 750px;
+		float: left;
+	}
+	.header_menu_container a {/*barre de navigation*/
+			font-family: 'Lato', Helvetica, sans-serif;
+		}
+	#left_col {
+		width: 260px;
+		float: left;
+	}
+	#content_container {
+		width: 690px;
+		border-left: 4px ridge #403F44;
+		float: left;
+	}
+	#footer {
+		width: 960px;
+		height: 60px;
+		border-top: 1px solid #403F44;
+		display: inline-block;
+	}
+
+/* HEADER */
+
+.logotype_name{/*PRENOM*/
+	text-transform: uppercase;
+	font-size: 32px;
+	margin: 43px 0 0;
+	color: white;
+}
+.logotype_occupation{ /*titre sous nom*/
+	width : 253px;
+	height: 240px;
+	text-transform: uppercase;
+	margin-top: 5px;
+	color: white;
+	text-shadow: 10px 10px 1px grey;  
+	font-size: 17px;
+	letter-spacing: 2px;
+	padding-left: 7px;
+	padding-top : 2px;
+	border-right: 4px ridge red;
+	border-top: 4px ridge red;
+}
+
+.download_print_buttons {
+	width: 250px;
+	height: 45px;
+	float: right;
+}
+	.download_print_buttons a {
+		text-decoration: none;
+		font-size: 15px;
+		font-family: 'Lato', Helvetica, sans-serif;
+		font-style: italic;
+		line-height: 20px;
+		padding: 16px 17px;
+		
+		color: yellow;
+		
+	}
+		.download_print_buttons a:hover {
+			
+			color: lime;
+			content: "YES";
+			font-size: 40px;
+			text-shadow: 10px 10px 20px white;
+			border-radius: 40px 10%;
+
+		}
+		.download_print_buttons .icon {
+			color: #02070a;
+			padding-right: 6px;
+			font-style: normal;
+			font-size: 18px;
+		}
+		.icon-angle-double-right {
+			position: relative;
+			top: 2px;
+		}
+			.download_print_buttons a:hover .icon {
+				color: white;/*#e4e3e8*/
+
+			}
+			
+.header_menu {
+	width: 699px;
+	margin-top: 40px;
+	margin-left: 5px;
+
+}
+	.header_menu a{
+		text-decoration: none;
+		padding: 0 20px;
+		border-right: 4px solid red;/*#e4e3e8*/
+		border-bottom: 1px solid red;
+		font-size: 36px;
+		font-weight: 400;
+	}
+	.header_menu a.no_border{
+		font-size: 14px;
+		border-right: 4px solid red;
+	}
+		.header_menu a:hover {
+			color: red;/*#837c9a*/
+		}
+		
+/* LEFT NAV */
+
+#left_nav h2 {
+	margin: 0;
+	font-size: 24px;
+}
+
+.profile_frame{
+	width: 210px;
+	height: 250px;
+	background: url(images/pat.jpeg) 20%/350px no-repeat;
+border-top: 5px solid white;
+border-bottom: 5px solid white;
+border-right: 5px solid white;
+border-left:5px solid white;
+	margin-top: 30px;
+	padding-left: 0px;
+}
+	.profile_picture{
+		width: 210px;
+		height: 240px;
+		margin:5px;
+		background: url(images/pat.jpeg) 30%/180px no-repeat;
+	
+	margin-top: 10px;}
+
+.hello_content,
+.contact_details_content {
+	margin-top: 25px;
+}
+
+.hello_content{
+	width: 230px;
+}
+.contact_details_content h2 + p.purple{
+	margin-top: 10px;
+}
+.contact_details_content p{
+	margin: 0;
+}
+.contact_details_content p.purple{
+	margin-top: 25px;
+}
+
+.send_message_button,
+.special_button {
+	margin-top: 25px;
+	display: block;
+	background: url(images/B83HT.jpg);/*#48DA9B*/
+	
+	opacity: 0.7;
+	background-size: cover;
+	background-position: fixed;
+	width: 230px;
+	height: 50px;
+	position: relative;
+	z-index: 1;
+}
+	.cut1:after {
+		content: ";-)";
+		position: absolute;
+		bottom: -15px;
+		left: -20px;
+		width: 20px;
+		height: 20px;
+		z-index: 9;
+		background-color: grey;
+    transform: rotate(60deg);
+    padding-left: 5px;
+
+	}
+	.cut2:before {
+	    content: "";
+	    position: absolute;
+	    top: -19px;
+	    right: -20px;
+	    width: 20px;
+	    height: 30px;
+	    z-index: 9;
+	    
+      transform: rotate(60deg);
+	}
+	.content {
+	    text-align: center;		
+	    color: #04080b;
+	    width: 100%;
+	    height: 40px;
+	    position: absolute;
+	    z-index: 2;
+	    font: 18px 'Lato', Arial, sans-serif;
+	    margin: 0;
+	    padding: 16px 0 4px;
+        top: -10px;
+        bottom: 15px;
+	    border-top: 4px ridge #403F44;
+	    border-bottom: 4px ridge #403F44;
+	}
+	.send_message_button:hover,
+	.special_button:hover {
+		background: rgba(255, 255, 255, 0.25);/*#29C782*/
+	}
+
+.get_social_content {
+	text-align:center;
+	background-color: salmon;
+	margin-top: 15px;
+
+}
+  .get_social_content h2{
+    margin-bottom: 8px;
+    background : url(images/B83HT.jpg);
+    background-size: cover;
+  }
+	.social_icons {
+		margin-left: 8px;
+		margin-right: 8px;
+
+	}
+
+
+	.social_icons a {
+		font-size: 25px;
+		text-decoration: none;
+		color: #000507;
+		padding: 0;
+		padding: 0 5px;
+
+	}
+		.social_icons a span.invisible {
+			display:visible;
+
+		}
+		.social_icons .facebook:hover{
+			background: #3b5998;
+			color: #dfe3ee;
+			border-top-right-radius: 20px;
+			border-bottom-left-radius: 20px;
+		}
+
+		.social_icons .twitter:hover{
+			background: #00B0ED;
+			color: #fff;
+			}
+
+		.social_icons .linkedin:hover{
+			background: #007bb6;
+			color: #fff;
+			border-top-right-radius: 20px;
+			border-bottom-left-radius: 20px;
+		}
+
+.social_icons .Viadeo:hover{
+			background: #4A494D;
+			color: #fff;
+			border-top-right-radius: 20px;
+			border-bottom-left-radius: 20px;
+		}
+
+
+.footer_name {
+	font-style: italic;
+	margin-top: 20px;
+}
+
+/* Profile Content */
+
+.profile_quote {
+	position: relative;
+	/* margin-left: 5px; */
+}
+	.profile_quote p {
+		font-size: 17px;
+		width: 455px;
+	}
+	.profile_quote .entypo-quote {
+		color: #3d3a41;
+		font-size: 80px;
+    font-style: normal;
+		position: absolute;
+		top: -20px;
+		right: 70px;
+		cursor: default;
+	}
+
+.philosophy_content {
+	margin-top: 20px;
+}
+	.philosophy_content p {
+		margin: 0;
+		width: 370px;
+		float: left;
+	}
+	.philosophy_content ul {
+		float: left;
+		padding-left: 40px;
+	}
+
+
+
+
+
+
+	/**************************/
+	/*
+Inspired from the design made by 'Teodora':
+http://www.webdesignerforum.co.uk/files/file/63-free-psd-cv-template/
+https://dribbble.com/shots/1141520-PSD-CV-template?list=searches&offset=17
+
+Dark-wall pattern: http://subtlepatterns.com/dark-wall/
+
+Lato Font: https://www.google.com/fonts/specimen/Lato
+
+We love font icons: http://weloveiconfonts.com/
+
+*/
+
+/*********************************/
